@@ -78,7 +78,7 @@ function App() {
       fetchData();
       setSearch("");
   }
-  const notify = () => {toast("Result Copied");}
+  const notify = () => {toast("Result Copied"); console.log(copied);}
   
   return (
   <>
